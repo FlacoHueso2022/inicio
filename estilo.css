@@ -1,0 +1,461 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 15px;
+    font-family: Helvetica;
+    color: #333;
+    line-height: 24px;
+}
+.ancho {
+    max-width: 1200px;
+    /* border: 1px red solid; */
+    padding: 10px;
+    margin: auto;
+}
+/* Fondo */
+/* Funciona Correctamente */
+.fondo {
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+.contenedor_img_menu {
+    /* border: 1px white solid; */
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+    /* Centro todo el contenedor */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#estilo_img {
+    /* border: 1px yellow solid; */
+    border-radius: 50%;
+    max-width: 60px;
+}
+/* Menu */
+.contenedor_derecha {
+    /* border: 1px green solid; */
+    margin-left: auto;
+    max-width: 700px;
+    padding: 5px;
+    /* Mover Derecha Contenedor */
+    display: inline-flex;
+    vertical-align: top;
+}
+.contenedor_menu {
+    /* border: 1px blue solid; */
+    max-width: 1200px;
+    padding: 10px;
+
+    display: inline-block;
+    vertical-align: top;
+    max-width: 700px;
+    text-align: right;
+}
+.contenedor_menu a {
+    /* border: 1px red solid; */
+    text-decoration: none;
+    font-weight: bold;
+    color: #D9483B;
+    margin-left: 10px;
+    padding: 3px;
+}
+.contenedor_menu a:hover {
+    border-bottom: 2px orange solid;
+    font-weight: bold;
+    color: orange;
+}
+/* Funciona Correctamente */
+.contenedor_txt_centrado {
+    /* border: 2px green solid; */
+    max-width: 450px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 120px;
+    padding-bottom: 140px;
+    /* Tamaño del texto */
+    font-size: 20px;
+}
+.contenedor_txt_centrado p {
+    /* border: 1px white solid; */
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.contenedor_txt_centrado span {
+    color: #D9483B;
+}
+#estilo_linea {
+    background-color: #D9483B;
+    border: 0;
+    margin: auto;
+    max-width: 300px;
+    height: 5px;
+}
+/* Parte: Objetivo 2 */
+/* Funciona Correctamente */
+.contenedor {
+    background-color: #eeeeee;
+}
+#titulo_2, #descripcion_2 {
+    border-left: 5px #D9483B solid;
+    margin-left: 70px;
+    width: 60%;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.contenedor_completo {
+    /* border:  1px red solid; */
+    padding: 10px;
+    text-align: center;
+}
+.contenedor_completo img {
+    /* border: 2px green solid; */
+    border-radius: 50%;
+}
+.contenedor_txt {
+    /* border: 1px #D9483B solid; */
+    vertical-align: top;
+    display: inline-block;
+    /* margin: 5px; */
+    max-width: 600px;
+    padding: 10px;
+}
+#letras_morado {
+    color: #D9483B;
+    text-align: left;
+    font-size: 18px;
+}
+#negritas_black {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+#pequeñas_letras {
+    font-size: 15px;
+    text-align: left;
+}
+/* Parte en dos todo */
+.dividir {
+    /* border: 1px green solid; */
+    vertical-align: top;
+    display: inline-flex;
+    min-width: 85%;
+}
+.contenedor_DI {
+    /* border: 1px red solid; */
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+}
+span {
+    font-weight: bolder;
+}
+#btn_descarga {
+    /* border: 1px #D9483B solid; */
+    max-width: 110px;
+    height: 49px;
+    padding-top: 12px;
+    margin: auto;
+    text-align: center;
+}
+#btn_descarga input {
+    border: 2px #D9483B solid;
+    background-color: #D9483B;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#btn_descarga input:hover {
+    border: 2px #D9483B solid;
+    background-color: transparent;
+    color: #D9483B;
+}
+/* Parte: Objetivo 3 */
+/* Funciona Correctamente */
+.contenedor_obj3 {
+    /* border: 2px blue solid; */
+    /* Centrar todo */
+    text-align: center;
+}
+.servicios {
+    /* border: 1px red solid; */
+    width: 90%;
+    margin: auto;
+}
+#titulo_3, #descripcion_3 {
+    border-left: 5px #D9483B solid;
+    margin-left: 70px;
+    width: 60%;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+/* Tamaño de las imagenes */
+.tamanio {
+    /* border: 1px red solid; */
+    max-width: 100px;
+    /* Centrar solamente las imagenes */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Tamanio en general con el txt y img */
+.service_1, .service_2, 
+.service_3, .service_4,
+.service_5, .service_6 {
+    /* border:  1px green solid; */
+    max-width: 300px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.service_1 img, .service_2 img, 
+.service_3 img, .service_4 img,
+.service_5 img, .service_6 img {
+    /* border: 2px green solid; */
+    width: 100%;
+}
+/* Formato de los Servicios */
+.texto_centrado {
+    /* border: 1px green solid; */
+    padding: 5px;
+    width: 280px;
+    margin: auto;
+}
+.texto_centrado p {
+    /* border: 1px green solid; */
+    text-align: left;
+}
+/* Parte: Objetivo 4*/
+/* Funciona Correctamente */
+.contenedor_obj4 {
+    background-color: #333;
+    height: 100%;
+}
+.texto_izquierda {
+    /* border: 1px white solid; */
+    max-width: 600px;
+    margin: auto;
+}
+.texto_izquierda h2 {
+    /* border: 1px white solid; */
+    color: white;
+    padding: 10px;
+}
+.texto_izquierda p {
+    /* border: 1px white solid; */
+    color: #9C9C9C;
+    padding: 10px;
+}
+.btn_contrata {
+    /* border: 1px white solid; */
+    max-width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}
+.btn_contrata input {
+    border: 2px #D9483B solid;
+    background-color: #D9483B;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn_contrata input:hover {
+    border: 2px #D9483B solid;
+    background-color: transparent;
+    color: #D9483B;
+}
+/* Parte: Objetivo 5*/
+/* Funciona Correctamente */
+.contenedor_obj5 {
+    /* border: 2px green solid; */
+    text-align: center;
+    background-color: #eeeeee;
+}
+#titulo_5, #descripcion_5{
+    border-left: 5px #D9483B solid;
+    margin-left: 70px;
+    width: 60%;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.seleccion_img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(0, 91%, 27%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.seleccion_img img {
+    width: 50px;
+}
+.portafolio:hover .seleccion_img {
+    transform: scale(1);
+}
+.galeria {
+    /* border: 1px blue solid; */
+    padding: 10px;
+}
+.portafolio {
+    width: 250px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
+    display: inline-flex;
+    vertical-align: top;
+}
+.portafolio > img{
+    width: 250px;
+    object-fit: cover;
+    /* display: block; */
+}
+/* Parte: Objetivo 6 */
+/* Funciona Correctamente */
+.contenedor_obj6 {
+    /* border: 2px green solid; */
+    text-align: center;
+}
+#titulo_6, #descripcion_6 {
+    border-left: 5px #D9483B solid;
+    margin-left: 70px;
+    width: 60%;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+form {
+    /* border: 2px green solid; */
+    width: 69%;
+    margin: auto;
+    padding: 5px;
+}
+/* Funciona Correctamente */
+#name {
+    border: 2px #333 solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 49%;
+    padding: 10px;
+    resize: none;
+}
+#email {
+    border: 2px #333 solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 49%;
+    padding: 10px;
+    resize: none;
+}
+#subject {
+    border: 2px #333 solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 99%;
+    padding: 10px;
+    resize: none;
+}
+#contenido {
+    border: 2px #333 solid;
+    width: 99%;
+    height: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    resize: none;
+}
+#btn_enviar {
+    border: 1px #D9483B solid;
+    border-radius: 40px;
+    background-color: #D9483B;
+    color: white;
+    font-weight: bold;
+    /* Arriba y Abajo */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* Derecha y Izquierda */
+    padding-left: 40px;
+    padding-right: 40px;
+    /* Tamaño de texto */
+    font-size: 15px;
+}
+/* Parte: Objetivo 7 */
+/* Funciona Correctamente */
+.contenedor_obj7 {
+    /* border: 2px green solid; */
+    background-color: #1E1F21;
+    text-align: center;
+    color: white;
+}
+.ubicacion, .telefono, .email {
+     /* border:  1px green solid; */
+     width: 200px;
+     margin: 5px;
+     padding: 5px;
+     display: inline-block;
+     vertical-align: top;
+}
+.ubicacion a, .telefono a, .email a {
+    color: white;   
+    text-decoration: none;
+}
+.ubicacion a:hover, .telefono a:hover, .email a:hover {
+    color: #D9483B;   
+}
+footer {
+    /* border: 2px yellow solid; */
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Aparte si lo quiero hacer */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+}
+.iconos_redes {
+    /* border: 1px green solid; */
+    padding: 5px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.iconos_redes img {
+    /* border: 1px white solid; */
+    padding: 2px;
+}
